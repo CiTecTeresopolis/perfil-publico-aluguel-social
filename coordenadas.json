@@ -1,0 +1,249 @@
+{
+    "bairros": [
+        {
+        "nome": "Várzea",
+        "latitude_aproximada": -22.4165,
+        "longitude_aproximada": -42.9649
+        },
+        {
+        "nome": "Alto",
+        "latitude_aproximada": -22.4069,
+        "longitude_aproximada": -42.9461
+        },
+        {
+        "nome": "São Pedro",
+        "latitude_aproximada": -22.4020,
+        "longitude_aproximada": -42.9970
+        },
+        {
+        "nome": "Barra do Imbuí",
+        "latitude_aproximada": -22.4045,
+        "longitude_aproximada": -42.9839
+        },
+        {
+        "nome": "Tijuca",
+        "latitude_aproximada": -22.4093,
+        "longitude_aproximada": -42.9705
+        },
+        {
+        "nome": "Bom Retiro",
+        "latitude_aproximada": -22.4250,
+        "longitude_aproximada": -42.9800
+        },
+        {
+        "nome": "Araras",
+        "latitude_aproximada": -22.4080,
+        "longitude_aproximada": -42.9150
+        },
+        {
+        "nome": "Barroso",
+        "latitude_aproximada": -22.4140,
+        "longitude_aproximada": -42.9780
+        },
+        {
+        "nome": "Carlos Guinle",
+        "latitude_aproximada": -22.4300,
+        "longitude_aproximada": -42.9100
+        },
+        {
+        "nome": "Meudon",
+        "latitude_aproximada": -22.4360,
+        "longitude_aproximada": -42.9880
+        },
+        {
+        "nome": "Ermitage",
+        "latitude_aproximada": -22.4101,
+        "longitude_aproximada": -42.9825
+        },
+        {
+        "nome": "Parque São Luiz",
+        "latitude_aproximada": -22.4000,
+        "longitude_aproximada": -42.9850
+        },
+        {
+        "nome": "Fazendinha",
+        "latitude_aproximada": -22.4180,
+        "longitude_aproximada": -42.9780
+        },
+        {
+        "nome": "Cascata Guarani",
+        "latitude_aproximada": -22.4190,
+        "longitude_aproximada": -43.0100
+        },
+        {
+        "nome": "Jardim Cascata",
+        "latitude_aproximada": -22.4150,
+        "longitude_aproximada": -43.0150
+        },
+        {
+        "nome": "Morro dos Pinheiros",
+        "latitude_aproximada": -22.4050,
+        "longitude_aproximada": -43.0200
+        },
+        {
+        "nome": "Soberbo",
+        "latitude_aproximada": -22.4200,
+        "longitude_aproximada": -42.9400
+        },
+        {
+        "nome": "Granja Guarani",
+        "latitude_aproximada": -22.4280,
+        "longitude_aproximada": -42.9500
+        },
+        {
+        "nome": "Parque do Ingá",
+        "latitude_aproximada": -22.4250,
+        "longitude_aproximada": -42.9600
+        },
+        {
+        "nome": "Cascata dos Amores",
+        "latitude_aproximada": -22.4000,
+        "longitude_aproximada": -42.9300
+        },
+        {
+        "nome": "Taumaturgo",
+        "latitude_aproximada": -22.4150,
+        "longitude_aproximada": -42.9600
+        },
+        {
+        "nome": "Fátima",
+        "latitude_aproximada": -22.4280,
+        "longitude_aproximada": -42.9750
+        },
+        {
+        "nome": "Corta Vento",
+        "latitude_aproximada": -22.4220,
+        "longitude_aproximada": -42.9050
+        },
+        {
+        "nome": "Iucas",
+        "latitude_aproximada": -22.4180,
+        "longitude_aproximada": -42.9400
+        },
+        {
+        "nome": "Agriões",
+        "latitude_aproximada": -22.4277,
+        "longitude_aproximada": -42.9734
+        },
+        {
+        "nome": "Panorama",
+        "latitude_aproximada": -22.4160,
+        "longitude_aproximada": -42.9550
+        },
+        {
+        "nome": "Jardim Europa",
+        "latitude_aproximada": -22.4300,
+        "longitude_aproximada": -43.0000
+        },
+        {
+        "nome": "Vila Muqui",
+        "latitude_aproximada": -22.4350,
+        "longitude_aproximada": -42.9750
+        },
+        {
+        "nome": "Quinta da Barra",
+        "latitude_aproximada": -22.4000,
+        "longitude_aproximada": -42.9900
+        },
+        {
+        "nome": "Paineiras",
+        "latitude_aproximada": -22.4150,
+        "longitude_aproximada": -42.9300
+        },
+        {
+        "nome": "Golfe",
+        "latitude_aproximada": -22.3950,
+        "longitude_aproximada": -42.9900
+        },
+        {
+        "nome": "Artistas",
+        "latitude_aproximada": -22.4000,
+        "longitude_aproximada": -42.9700
+        },
+        {
+        "nome": "Vale do Paraíso",
+        "latitude_aproximada": -22.4300,
+        "longitude_aproximada": -42.9350
+        },
+        {
+        "nome": "Pimenteiras",
+        "latitude_aproximada": -22.4000,
+        "longitude_aproximada": -42.9500
+        },
+        {
+        "nome": "Cascata do Imbuí",
+        "latitude_aproximada": -22.4150,
+        "longitude_aproximada": -43.0000
+        },
+        {
+        "nome": "Posse",
+        "latitude_aproximada": -22.4320,
+        "longitude_aproximada": -43.0250
+        },
+        {
+        "nome": "Quebra Frascos",
+        "latitude_aproximada": -22.4039,
+        "longitude_aproximada": -42.9234
+        },
+        {
+        "nome": "Parque do Imbuí",
+        "latitude_aproximada": -22.4080,
+        "longitude_aproximada": -42.9950
+        },
+        {
+        "nome": "Prata",
+        "latitude_aproximada": -22.4230,
+        "longitude_aproximada": -42.9900
+        },
+        {
+        "nome": "Fonte Santa",
+        "latitude_aproximada": -22.4380,
+        "longitude_aproximada": -42.9600
+        },
+        {
+        "nome": "Granja Florestal",
+        "latitude_aproximada": -22.4400,
+        "longitude_aproximada": -42.9800
+        },
+        {
+        "nome": "Jardim Salaco",
+        "latitude_aproximada": -22.4050,
+        "longitude_aproximada": -42.9600
+        },
+        {
+        "nome": "Jardim Meudon",
+        "latitude_aproximada": -22.4350,
+        "longitude_aproximada": -42.9950
+        },
+        {
+        "nome": "Caleme",
+        "latitude_aproximada": -22.4450,
+        "longitude_aproximada": -42.9900
+        },
+        {
+        "nome": "Quinta Lebrão",
+        "latitude_aproximada": -22.4500,
+        "longitude_aproximada": -42.9850
+        },
+        {
+        "nome": "Fischer",
+        "latitude_aproximada": -22.4020,
+        "longitude_aproximada": -42.9550
+        },
+        {
+        "nome": "Granja Comary",
+        "latitude_aproximada": -22.3995,
+        "longitude_aproximada": -42.9366
+        },
+        {
+        "nome": "Santa Cecília",
+        "latitude_aproximada": -22.4300,
+        "longitude_aproximada": -42.9700
+        },
+        {
+        "nome": "Rosário",
+        "latitude_aproximada": -22.4330,
+        "longitude_aproximada": -42.9800
+        }
+    ]
+}

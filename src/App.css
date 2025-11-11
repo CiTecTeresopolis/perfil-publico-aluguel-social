@@ -1,0 +1,529 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  line-height: 1.6;
+  background: #F8F9FA;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+/* Header */
+.app-header {
+  width: 100%;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  background: linear-gradient(135deg, #128C7E 0%, #34A853 100%);
+}
+
+.app-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.app-logo {
+  max-width: 600px;
+}
+
+.app-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+
+/* Main content */
+.app-main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Upload section */
+.upload-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.file-upload-container {
+  display: inline-block;
+}
+
+.upload-button {
+  background: #1A73E8;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(26, 115, 232, 0.3);
+}
+
+.upload-button:hover:not(:disabled) {
+  background: #1557B0;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(26, 115, 232, 0.4);
+}
+
+.upload-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.error-message {
+  background: #FEE;
+  color: #C53030;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  border: 1px solid #FEB2B2;
+}
+
+/* Slide containers - matching original HTML */
+.slide-container {
+  width: 100%;
+  max-width: 1280px;
+  min-height: 720px;
+  background: #F8F9FA;
+  padding: 40px;
+  margin: 40px auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #128C7E;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 28px;
+  color: #34A853;
+  margin-bottom: 20px;
+}
+
+.content {
+  font-size: 20px;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.content-row {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.w-1-2 {
+  flex: 1;
+}
+
+.highlight {
+  color: #128C7E;
+  font-weight: bold;
+}
+
+.highlight2 {
+  color: #34A853;
+  font-weight: bold;
+}
+
+.button-result {
+  color: #F8F9FA;
+  font-weight: bold;
+  border-color: #34A853;
+  background-color: #34A853;
+}
+
+.button-result:hover {
+  color: #F8F9FA;
+  font-weight: bold;
+  border-color: #30964b;
+  background-color: #30964b;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.233);
+}
+
+.card {
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.card p {
+  margin-bottom: 1rem;
+}
+
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.pl-8 {
+  padding-left: 2rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.space-y-2 > * + * {
+  margin-top: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+/* Footer */
+.app-footer {
+  width: 100%;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  background: linear-gradient(135deg, #128C7E 0%, #34A853 100%);
+}
+
+/* KPI Items */
+.kpi-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.kpi-item {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.kpi-icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  flex-shrink: 0;
+}
+
+.kpi-icon.blue {
+  background: #1A73E8;
+}
+
+.kpi-icon.green {
+  background: #34A853;
+}
+
+.kpi-icon.yellow {
+  background: #FBBC04;
+}
+
+.kpi-icon.red {
+  background: #EA4335;
+}
+
+.kpi-icon.purple {
+  background: #9C27B0;
+}
+
+/* Charts */
+.chart-container {
+  height: 300px;
+  /* background: white; */
+  padding: 1rem;
+  border-radius: 8px;
+  /* box-shadow: 0 2px 8px rgba(0,0,0,0.05); */
+  position: relative;
+}
+
+/* Gauge Chart Specific */
+.gauge-container {
+  position: relative;
+}
+
+.gauge-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  pointer-events: none;
+}
+
+.gauge-percentage {
+  font-size: 30px;
+  font-weight: bold;
+  color: #34A853;
+}
+
+.gauge-label {
+  font-size: 20px;
+  color: #333;
+  margin-top: 5px;
+}
+
+/* Donut Chart Specific */
+.donut-container {
+  position: relative;
+}
+
+.donut-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  pointer-events: none;
+}
+
+.donut-percentage {
+  font-size: 30px;
+  font-weight: bold;
+  color: #34A853;
+}
+
+/* Decision Items */
+.decision-item {
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.blue-bg {
+  background-color: rgba(26, 115, 232, 0.1);
+}
+
+.green-bg {
+  background-color: rgba(52, 168, 83, 0.1);
+}
+
+.yellow-bg {
+  background-color: rgba(251, 188, 4, 0.1);
+}
+
+.red-bg {
+  background-color: rgba(234, 67, 53, 0.1);
+}
+
+.icon-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.blue-icon {
+  background-color: #1A73E8;
+}
+
+.green-icon {
+  background-color: #34A853;
+}
+
+.yellow-icon {
+  background-color: #FBBC04;
+}
+
+.red-icon {
+  background-color: #EA4335;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+/* Step Items */
+.step-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.step-number {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #34A853;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .content-row {
+    flex-direction: column;
+  }
+  
+  .slide-container {
+    padding: 20px;
+    margin: 20px auto;
+    min-height: auto;
+  }
+  
+  .title {
+    font-size: 28px;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+  }
+  
+  .content {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-header h1 {
+    font-size: 2rem;
+  }
+  
+  .app-header p {
+    font-size: 1rem;
+  }
+  
+  .app-main {
+    padding: 1rem;
+  }
+  
+  .title {
+    font-size: 24px;
+  }
+  
+  .subtitle {
+    font-size: 20px;
+  }
+  
+  .content {
+    font-size: 16px;
+  }
+  
+  .kpi-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+  
+  .kpi-icon {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .decision-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+
+  .icon-container {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Loading and error states */
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+.no-data {
+  text-align: center;
+  padding: 3rem;
+  color: #666;
+  background: #F8F9FA;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.paragrafo-modal {
+  margin-top: 20px;
+  line-height: 1.6; 
+  text-align: justify;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dashboard-content {
+  animation: fadeIn 0.6s ease-out;
+}
+
+.slide-container {
+  animation: fadeIn 0.8s ease-out;
+}
+
+/* Font Awesome icons fallback */
+.fas {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.fa-chart-pie::before { content: "📊"; }
+.fa-chart-bar::before { content: "📈"; }
+.fa-exclamation-triangle::before { content: "⚠️"; }
+.fa-trophy::before { content: "🏆"; }
+.fa-tasks::before { content: "✅"; }
+.fa-chart-line::before { content: "📈"; }
+.fa-cogs::before { content: "⚙️"; }
+.fa-users::before { content: "👥"; }
+
