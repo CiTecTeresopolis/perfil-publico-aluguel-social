@@ -15,7 +15,7 @@ import "leaflet.heat";
  * @param {Array<Array<number>>} points - Array de pontos no formato [lat, lng, intensity]
  * @param {Object} options - Opções de configuração do Leaflet.heat
  */
-const HeatmapLayer = ({ points, options }) => {
+const HeatMapLayer = ({ points, options }) => {
   const map = useMap(); // Hook do react-leaflet para acessar a instância do mapa
 
   useEffect(() => {
@@ -40,4 +40,4 @@ const HeatmapLayer = ({ points, options }) => {
   return null; // Este componente não renderiza nada diretamente
 };
 
-export default HeatmapLayer;
+export default HeatMapLayer;

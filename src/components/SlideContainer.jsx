@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import 'leaflet/dist/leaflet.css';
 import AllCharts from './AllCharts';
-import HeatmapLayer from './HeatmapLayer';
+import HeatMapLayer from './HeatMapLayer';
 import RelatorioModal from './RelatorioModal';
 import coordenadas from '../../coordenadas.json';
 import { MapContainer, TileLayer } from 'react-leaflet';
@@ -193,7 +193,7 @@ const SlideContainer = ({ metrics }) => {
                 />
 
                 {/* Camada de Heatmap usando o componente wrapper */}
-                <HeatmapLayer
+                <HeatMapLayer
                   points={heatData}
                   options={heatmapOptions}
                 />
