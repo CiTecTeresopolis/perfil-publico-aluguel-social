@@ -66,7 +66,7 @@ const SlideContainer = ({ metrics }) => {
             <ul className="list-disc pl-8 space-y-2">
               <li>1. Contagem e percentual por faixa etária.</li>
               <li>2. Contagem e percentual por nível de escolaridade.</li>
-              <li>3. Total de Beneficiários, Média e Mediana de Idade.</li>
+              <li>3. Total de Beneficiários, Média, Mediana e Moda de Idade.</li>
               <li>4. Contagem e percentual de Feminino, Masculino e Não Informado.</li>
               <li>5. Lista com os 3 (três) bairros com maior número de atendimentos.</li>
               <li>6. Contagem e percentual por Centro de Referência de Assistência Social.</li>
@@ -163,6 +163,10 @@ const SlideContainer = ({ metrics }) => {
             <div className="step-item">
               <div className="step-number">2</div>
               <p style={{marginTop: 5}}>Mediana de Idade <span className="highlight">{metrics.mediana_idade}</span></p>
+            </div>
+            <div className="step-item">
+              <div className="step-number">3</div>
+              <p style={{marginTop: 5}}>Moda de Idade <span className="highlight">{metrics.moda_idade}</span></p>
             </div>
           </div>
           

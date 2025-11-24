@@ -52,6 +52,7 @@ export const calculateMetrics = (data) => {
         },
         media_idade: 0,
         mediana_idade: 0,
+        moda_idade: 0,
         total_bairros_atingidos: [],
         top_bairros_atingidos: [],
         top_bairros_atuais: []
@@ -119,6 +120,21 @@ export const calculateMetrics = (data) => {
     } else {
         metrics.mediana_idade = idades[meio];
     }
+
+    // Cálculo da Moda de Idade
+    const contagemIdades = {};
+    idades.forEach(idade => {
+        contagemIdades[idade] = (contagemIdades[idade] || 0) + 1;
+    });
+    let moda = idades[0];
+    let maxCount = 1;
+    for (const idade in contagemIdades) {
+        if (contagemIdades[idade] > maxCount) {
+            maxCount = contagemIdades[idade];
+            moda = idade;
+        }
+    }
+    metrics.moda_idade = moda;  
 
     // Todos  Bairros Atingidos
     metrics.total_bairros_atingidos = Object.entries(contagemBairrosAtingidos)
