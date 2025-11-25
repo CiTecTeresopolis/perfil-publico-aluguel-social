@@ -214,7 +214,7 @@ const RelatorioModal = ({ isOpen, onRequestClose }) => {
             <td style={tdStyle}>Idade</td>
             <td style={tdStyle}>Média 49 anos</td>
             <td style={tdStyle}>Adultos em idade produtiva, mas com barreiras de empregabilidade; presença de idosos que demandam cuidados.</td>
-            <td style={tdStyle}>- Polícias de geração de renda e inclusão produtiva<br/>- Serviços de convivência e saúde para idosos.</td>
+            <td style={tdStyle}>- Políticas de geração de renda e inclusão produtiva<br/>- Serviços de convivência e saúde para idosos.</td>
           </tr>
           <tr>
             <td style={tdStyle}>Territórios</td>
