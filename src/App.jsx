@@ -35,7 +35,7 @@ function App() {
         {/* <h1>Dashboard de Maturidade Digital</h1> */}
         <p>Análise do Perfil do Público Atendido pelo Aluguel Social - 2025</p>
          <a
-            className="font-bold text-foreground mb-4 text-white mt-5"
+            className="font-bold text-foreground mb-4 text-white mt-5 text-white"
             href="https://dados.teresopolis.rj.gov.br/dataset/protecao-social/resource/0f0bcb82-b9a9-4a08-9e0d-f0162f1ea2cf"
           >
             Dados Abertos Compilados - Clique Aqui 🗎
